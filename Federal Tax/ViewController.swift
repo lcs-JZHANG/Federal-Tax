@@ -9,12 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    //Mark: Label Name
+    @IBOutlet weak var name: UITextField!
+    @IBOutlet weak var income: UITextField!
+    @IBOutlet weak var taxOwing: UILabel!
+    @IBOutlet weak var taxRate: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    @IBAction func caculate(_ sender: Any) {
+    }
+    
 }
 
