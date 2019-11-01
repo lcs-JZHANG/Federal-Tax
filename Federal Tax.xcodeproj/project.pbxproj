@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F42BF6AF236C79260089B32E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42BF6AE236C79260089B32E /* AppDelegate.swift */; };
+		F42BF6B1236C79260089B32E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42BF6B0236C79260089B32E /* SceneDelegate.swift */; };
+		F42BF6B3236C79260089B32E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42BF6B2236C79260089B32E /* ViewController.swift */; };
+		F42BF6B6236C79260089B32E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42BF6B4236C79260089B32E /* Main.storyboard */; };
+		F42BF6B8236C79280089B32E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42BF6B7236C79280089B32E /* Assets.xcassets */; };
+		F42BF6BB236C79280089B32E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42BF6B9236C79280089B32E /* LaunchScreen.storyboard */; };
+		F42BF6C6236C79280089B32E /* Federal_TaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42BF6C5236C79280089B32E /* Federal_TaxTests.swift */; };
+		F42BF6D1236C79280089B32E /* Federal_TaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42BF6D0236C79280089B32E /* Federal_TaxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F42BF6C2236C79280089B32E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F42BF6A3236C79260089B32E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F42BF6AA236C79260089B32E;
+			remoteInfo = "Federal Tax";
+		};
+		F42BF6CD236C79280089B32E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F42BF6A3236C79260089B32E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F42BF6AA236C79260089B32E;
+			remoteInfo = "Federal Tax";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F42BF6AB236C79260089B32E /* Federal Tax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Federal Tax.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42BF6AE236C79260089B32E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F42BF6B0236C79260089B32E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F42BF6B2236C79260089B32E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F42BF6B5236C79260089B32E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F42BF6B7236C79280089B32E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F42BF6BA236C79280089B32E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F42BF6BC236C79280089B32E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42BF6C1236C79280089B32E /* Federal TaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Federal TaxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42BF6C5236C79280089B32E /* Federal_TaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Federal_TaxTests.swift; sourceTree = "<group>"; };
+		F42BF6C7236C79280089B32E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42BF6CC236C79280089B32E /* Federal TaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Federal TaxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42BF6D0236C79280089B32E /* Federal_TaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Federal_TaxUITests.swift; sourceTree = "<group>"; };
+		F42BF6D2236C79280089B32E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F42BF6A8236C79260089B32E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42BF6BE236C79280089B32E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42BF6C9236C79280089B32E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F42BF6A2236C79260089B32E = {
+			isa = PBXGroup;
+			children = (
+				F42BF6AD236C79260089B32E /* Federal Tax */,
+				F42BF6C4236C79280089B32E /* Federal TaxTests */,
+				F42BF6CF236C79280089B32E /* Federal TaxUITests */,
+				F42BF6AC236C79260089B32E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F42BF6AC236C79260089B32E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F42BF6AB236C79260089B32E /* Federal Tax.app */,
+				F42BF6C1236C79280089B32E /* Federal TaxTests.xctest */,
+				F42BF6CC236C79280089B32E /* Federal TaxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F42BF6AD236C79260089B32E /* Federal Tax */ = {
+			isa = PBXGroup;
+			children = (
+				F42BF6AE236C79260089B32E /* AppDelegate.swift */,
+				F42BF6B0236C79260089B32E /* SceneDelegate.swift */,
+				F42BF6B2236C79260089B32E /* ViewController.swift */,
+				F42BF6B4236C79260089B32E /* Main.storyboard */,
+				F42BF6B7236C79280089B32E /* Assets.xcassets */,
+				F42BF6B9236C79280089B32E /* LaunchScreen.storyboard */,
+				F42BF6BC236C79280089B32E /* Info.plist */,
+			);
+			path = "Federal Tax";
+			sourceTree = "<group>";
+		};
+		F42BF6C4236C79280089B32E /* Federal TaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				F42BF6C5236C79280089B32E /* Federal_TaxTests.swift */,
+				F42BF6C7236C79280089B32E /* Info.plist */,
+			);
+			path = "Federal TaxTests";
+			sourceTree = "<group>";
+		};
+		F42BF6CF236C79280089B32E /* Federal TaxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F42BF6D0236C79280089B32E /* Federal_TaxUITests.swift */,
+				F42BF6D2236C79280089B32E /* Info.plist */,
+			);
+			path = "Federal TaxUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F42BF6AA236C79260089B32E /* Federal Tax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42BF6D5236C79280089B32E /* Build configuration list for PBXNativeTarget "Federal Tax" */;
+			buildPhases = (
+				F42BF6A7236C79260089B32E /* Sources */,
+				F42BF6A8236C79260089B32E /* Frameworks */,
+				F42BF6A9236C79260089B32E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Federal Tax";
+			productName = "Federal Tax";
+			productReference = F42BF6AB236C79260089B32E /* Federal Tax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F42BF6C0236C79280089B32E /* Federal TaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42BF6D8236C79280089B32E /* Build configuration list for PBXNativeTarget "Federal TaxTests" */;
+			buildPhases = (
+				F42BF6BD236C79280089B32E /* Sources */,
+				F42BF6BE236C79280089B32E /* Frameworks */,
+				F42BF6BF236C79280089B32E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F42BF6C3236C79280089B32E /* PBXTargetDependency */,
+			);
+			name = "Federal TaxTests";
+			productName = "Federal TaxTests";
+			productReference = F42BF6C1236C79280089B32E /* Federal TaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F42BF6CB236C79280089B32E /* Federal TaxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42BF6DB236C79280089B32E /* Build configuration list for PBXNativeTarget "Federal TaxUITests" */;
+			buildPhases = (
+				F42BF6C8236C79280089B32E /* Sources */,
+				F42BF6C9236C79280089B32E /* Frameworks */,
+				F42BF6CA236C79280089B32E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F42BF6CE236C79280089B32E /* PBXTargetDependency */,
+			);
+			name = "Federal TaxUITests";
+			productName = "Federal TaxUITests";
+			productReference = F42BF6CC236C79280089B32E /* Federal TaxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F42BF6A3236C79260089B32E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Jesse Zhang";
+				TargetAttributes = {
+					F42BF6AA236C79260089B32E = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					F42BF6C0236C79280089B32E = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = F42BF6AA236C79260089B32E;
+					};
+					F42BF6CB236C79280089B32E = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = F42BF6AA236C79260089B32E;
+					};
+				};
+			};
+			buildConfigurationList = F42BF6A6236C79260089B32E /* Build configuration list for PBXProject "Federal Tax" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F42BF6A2236C79260089B32E;
+			productRefGroup = F42BF6AC236C79260089B32E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F42BF6AA236C79260089B32E /* Federal Tax */,
+				F42BF6C0236C79280089B32E /* Federal TaxTests */,
+				F42BF6CB236C79280089B32E /* Federal TaxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F42BF6A9236C79260089B32E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42BF6BB236C79280089B32E /* LaunchScreen.storyboard in Resources */,
+				F42BF6B8236C79280089B32E /* Assets.xcassets in Resources */,
+				F42BF6B6236C79260089B32E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42BF6BF236C79280089B32E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42BF6CA236C79280089B32E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F42BF6A7236C79260089B32E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42BF6B3236C79260089B32E /* ViewController.swift in Sources */,
+				F42BF6AF236C79260089B32E /* AppDelegate.swift in Sources */,
+				F42BF6B1236C79260089B32E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42BF6BD236C79280089B32E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42BF6C6236C79280089B32E /* Federal_TaxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42BF6C8236C79280089B32E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42BF6D1236C79280089B32E /* Federal_TaxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F42BF6C3236C79280089B32E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F42BF6AA236C79260089B32E /* Federal Tax */;
+			targetProxy = F42BF6C2236C79280089B32E /* PBXContainerItemProxy */;
+		};
+		F42BF6CE236C79280089B32E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F42BF6AA236C79260089B32E /* Federal Tax */;
+			targetProxy = F42BF6CD236C79280089B32E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F42BF6B4236C79260089B32E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42BF6B5236C79260089B32E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F42BF6B9236C79280089B32E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42BF6BA236C79280089B32E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F42BF6D3236C79280089B32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F42BF6D4236C79280089B32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F42BF6D6236C79280089B32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62A54T39XJ;
+				INFOPLIST_FILE = "Federal Tax/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jesse-Zhang.Federal-Tax";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F42BF6D7236C79280089B32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62A54T39XJ;
+				INFOPLIST_FILE = "Federal Tax/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jesse-Zhang.Federal-Tax";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F42BF6D9236C79280089B32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62A54T39XJ;
+				INFOPLIST_FILE = "Federal TaxTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jesse-Zhang.Federal-TaxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Federal Tax.app/Federal Tax";
+			};
+			name = Debug;
+		};
+		F42BF6DA236C79280089B32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62A54T39XJ;
+				INFOPLIST_FILE = "Federal TaxTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jesse-Zhang.Federal-TaxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Federal Tax.app/Federal Tax";
+			};
+			name = Release;
+		};
+		F42BF6DC236C79280089B32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62A54T39XJ;
+				INFOPLIST_FILE = "Federal TaxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jesse-Zhang.Federal-TaxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Federal Tax";
+			};
+			name = Debug;
+		};
+		F42BF6DD236C79280089B32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62A54T39XJ;
+				INFOPLIST_FILE = "Federal TaxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jesse-Zhang.Federal-TaxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Federal Tax";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F42BF6A6236C79260089B32E /* Build configuration list for PBXProject "Federal Tax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42BF6D3236C79280089B32E /* Debug */,
+				F42BF6D4236C79280089B32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42BF6D5236C79280089B32E /* Build configuration list for PBXNativeTarget "Federal Tax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42BF6D6236C79280089B32E /* Debug */,
+				F42BF6D7236C79280089B32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42BF6D8236C79280089B32E /* Build configuration list for PBXNativeTarget "Federal TaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42BF6D9236C79280089B32E /* Debug */,
+				F42BF6DA236C79280089B32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42BF6DB236C79280089B32E /* Build configuration list for PBXNativeTarget "Federal TaxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42BF6DC236C79280089B32E /* Debug */,
+				F42BF6DD236C79280089B32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F42BF6A3236C79260089B32E /* Project object */;
+}
